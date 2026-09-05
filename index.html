@@ -288,25 +288,18 @@ button{ font-family:inherit; cursor:pointer; }
    ========================================================= */
 .ba-scroller{
   margin-top:44px;
-  display:flex; gap:16px;
-  overflow-x:auto;
-  scroll-snap-type:x mandatory;
-  padding-bottom:8px;
-  -webkit-overflow-scrolling:touch;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:32px;
 }
-.ba-scroller::-webkit-scrollbar{ height:5px; }
-.ba-scroller::-webkit-scrollbar-thumb{ background:var(--line); }
-.ba-card{
-  flex:0 0 82%;
-  scroll-snap-align:start;
-}
-@media (min-width:640px){ .ba-card{ flex-basis:44%; } }
-@media (min-width:980px){ .ba-card{ flex-basis:31.5%; } }
+@media (min-width:640px){ .ba-scroller{ grid-template-columns:repeat(2,1fr); } }
+@media (min-width:980px){ .ba-scroller{ grid-template-columns:repeat(3,1fr); } }
 .ba-compare{
   position:relative;
   aspect-ratio:4/5;
   overflow:hidden;
   background:var(--ink);
+  touch-action:none;
 }
 .ba-compare img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
 .ba-before{ clip-path:inset(0 50% 0 0); }
@@ -608,8 +601,8 @@ footer{ background:var(--ink); color:#9C9086; padding:56px 0 110px; font-size:13
       </div>
       <div class="ba-card">
         <div class="ba-compare" data-ba>
-          <img class="ba-after" src="img/perm-after.jpg" alt="ニュアンスパーマで動きが出た仕上がり">
-          <img class="ba-before" src="img/perm-before.jpg" alt="施術前の動きの出にくい髪の状態">
+          <img class="ba-after" src="img/perm-after.jpg" alt="ニュアンスパーマで動きが出た仕上がり" style="object-position:center 30%">
+          <img class="ba-before" src="img/perm-before.jpg" alt="施術前の動きの出にくい髪の状態" style="object-position:center 15%">
           <div class="ba-handle"></div>
           <span class="ba-tag before">Before</span>
           <span class="ba-tag after">After</span>
