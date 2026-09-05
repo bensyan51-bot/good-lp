@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>中野のメンズ美容室 good!｜乾かすだけで整う、曲がる縮毛矯正とメンズカット</title>
+<meta name="description" content="中野駅徒歩2分のメンズ特化美容室good!。スタイリングが苦手な男性のために、ドライヤーだけで整うカットと、自然な丸みを残す「曲がる縮毛矯正」、こなれたニュアンスパーマをご用意。マンツーマン施術で似合う髪型が見つかります。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://good-nakano.example.com/">
+
+<!-- ===== OGP（差し替え：画像URL・サイトURLは公開後に本番のものへ） ===== -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="中野のメンズ美容室 good!｜乾かすだけで整う髪へ">
+<meta property="og:description" content="中野駅徒歩2分。スタイリングが苦手な男性のためのメンズ特化サロン。曲がる縮毛矯正・メンズパーマ・メンズカット。">
+<meta property="og:url" content="https://good-nakano.example.com/">
+<meta property="og:site_name" content="good!（グッド）中野メンズ美容室">
+<meta property="og:image" content="https://good-nakano.example.com/ogp.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- ===== favicon（差し替え：/mnt想定。実運用では favicon.ico 等を用意） ===== -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231C1512'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='%23E7B76A' text-anchor='middle'%3Eg%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- ===== 構造化データ（LocalBusiness / HairSalon） ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "good!（グッド）",
+  "image": "https://good-nakano.example.com/ogp.jpg",
+  "url": "https://good-nakano.example.com/",
+  "telephone": "+81-3-6382-5421",
+  "priceRange": "¥¥",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "中野2-11-7 津田ビル4階",
+    "addressLocality": "中野区",
+    "addressRegion": "東京都",
+    "postalCode": "164-0001",
+    "addressCountry": "JP"
+  },
+  "openingHours": ["Mo-Fr 11:00-23:00","Sa-Su,PH 10:00-23:00"],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.83",
+    "reviewCount": "36"
+  }
+}
+</script>
+
+<style>
+/* =========================================================
+   0. トークン（このLPの色・フォント・余白の基準値）
+   ★色や価格を変えたいときは、まずこの下のCSS変数を編集してください
+   ========================================================= */
+:root{
+  --ink:      #1C1512;   /* もっとも暗いベース（木の炭のような焦茶） */
+  --bark:     #2B201A;   /* 濃茶：暗いセクションの地色 */
+  --paper:    #F4EFE7;   /* 生成り：明るいセクションの地色 */
+  --paper-2:  #ECE4D8;   /* 生成り（一段濃く、区切りに使用） */
+  --clay:     #8C5A32;   /* メインアクセント：革・木のような琥珀茶 */
+  --clay-lt:  #C69A5C;   /* クレイの明るいトーン：見出し・線に使用 */
+  --stone:    #7C6F63;   /* 茶みのグレー：本文サブ・キャプション */
+  --line:     #D9CEBE;   /* 明るい面のヘアライン */
+  --line-dk:  rgba(244,239,231,.14); /* 暗い面のヘアライン */
+  --cream:    #F4EFE7;
+
+  --serif: "Shippori Mincho", serif;
+  --sans:  "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+
+  --container: 1120px;
+  --pad: 24px;
+  --radius-s: 2px;
+  --radius-m: 3px;
+}
+
+*,*::before,*::after{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  *{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+}
+body{
+  margin:0;
+  font-family:var(--sans);
+  color:var(--ink);
+  background:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  line-height:1.8;
+  font-size:16px;
+  padding-bottom:64px; /* モバイル固定CTA分の余白 */
+}
+@media (min-width:900px){ body{ padding-bottom:0; } }
+
+img{ max-width:100%; display:block; }
+a{ color:inherit; text-decoration:none; }
+h1,h2,h3,h4{ margin:0; font-family:var(--serif); font-weight:600; letter-spacing:.02em; }
+p{ margin:0; }
+ul{ margin:0; padding:0; list-style:none; }
+button{ font-family:inherit; cursor:pointer; }
+
+:focus-visible{ outline:2px solid var(--clay-lt); outline-offset:3px; }
+
+.wrap{
+  max-width:var(--container);
+  margin:0 auto;
+  padding:0 var(--pad);
+}
+.section{ padding:88px 0; }
+@media (max-width:640px){ .section{ padding:64px 0; } }
+
+.section-dark{ background:var(--bark); color:var(--paper); }
+.section-dark .stone-text{ color:#C9BEAF; }
+
+.lead{
+  display:block;
+  font-size:14px;
+  color:var(--clay);
+  margin-bottom:14px;
+  letter-spacing:.06em;
+}
+.section-dark .lead{ color:var(--clay-lt); }
+
+.h2{
+  font-size:clamp(26px,4.4vw,38px);
+  line-height:1.5;
+}
+.body-text{
+  color:var(--stone);
+  font-size:16px;
+  line-height:2;
+  max-width:38em;
+}
+.section-dark .body-text{ color:#C9BEAF; }
+
+.divider{
+  width:44px; height:1px; background:var(--clay);
+  margin:22px 0;
+}
+
+/* ===== ボタン ===== */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:10px;
+  padding:17px 30px;
+  font-size:15px; font-weight:700; letter-spacing:.04em;
+  border-radius:var(--radius-s);
+  border:1px solid transparent;
+  transition:background .2s ease, color .2s ease, border-color .2s ease, transform .15s ease;
+}
+.btn:active{ transform:translateY(1px); }
+.btn-primary{ background:var(--clay); color:#fff; }
+.btn-primary:hover{ background:#734725; }
+.btn-outline{ background:transparent; border-color:var(--clay-lt); color:var(--ink); }
+.btn-outline:hover{ background:var(--clay); border-color:var(--clay); color:#fff; }
+.section-dark .btn-outline{ color:var(--paper); border-color:var(--line-dk); }
+.section-dark .btn-outline:hover{ background:var(--clay); border-color:var(--clay); }
+.btn-block{ width:100%; }
+
+/* =========================================================
+   1. ヘッダー
+   ========================================================= */
+.site-header{
+  position:sticky; top:0; z-index:40;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:16px var(--pad);
+  background:rgba(28,21,18,.92);
+  backdrop-filter:blur(6px);
+  color:var(--paper);
+}
+.logo{
+  font-family:var(--serif); font-size:20px; font-weight:700; letter-spacing:.12em; color:var(--paper);
+}
+.logo span{ color:var(--clay-lt); }
+.header-cta{
+  font-size:13px; font-weight:700; padding:10px 18px;
+  background:var(--clay); color:#fff; border-radius:var(--radius-s);
+  white-space:nowrap;
+}
+@media (max-width:520px){ .header-cta{ padding:9px 14px; font-size:12px; } }
+
+/* =========================================================
+   2. HERO（SECTION 01）
+   ========================================================= */
+.hero{
+  position:relative;
+  min-height:100svh;
+  display:flex; align-items:flex-end;
+  background:var(--ink);
+  overflow:hidden;
+}
+.hero-photo{
+  position:absolute; inset:0;
+  background:
+    linear-gradient(to top, rgba(20,14,11,.94) 0%, rgba(20,14,11,.55) 42%, rgba(20,14,11,.18) 68%, rgba(20,14,11,.35) 100%),
+    url("img/hero-salon.jpg") center/cover no-repeat;
+}
+.hero-inner{
+  position:relative; z-index:2;
+  width:100%;
+  padding:0 var(--pad) 56px;
+  color:var(--paper);
+  opacity:0; transform:translateY(16px);
+  animation:hero-in .9s .15s cubic-bezier(.2,.7,.2,1) forwards;
+}
+@keyframes hero-in{ to{ opacity:1; transform:translateY(0); } }
+.hero-eyebrow{
+  font-size:13px; color:var(--clay-lt); letter-spacing:.08em; margin-bottom:18px;
+}
+.hero-eyebrow b{ color:var(--paper); font-weight:700; }
+.hero h1{
+  font-size:clamp(34px,7.4vw,60px);
+  line-height:1.42;
+  max-width:11em;
+}
+.hero-sub{
+  margin-top:22px;
+  font-size:15.5px;
+  color:#D8CDBE;
+  max-width:30em;
+  line-height:1.9;
+}
+.hero-facts{
+  display:flex; flex-wrap:wrap; gap:10px 18px;
+  margin-top:26px; padding-top:22px;
+  border-top:1px solid var(--line-dk);
+  font-size:13px; color:#C9BEAF;
+}
+.hero-facts li{ position:relative; padding-left:16px; }
+.hero-facts li::before{ content:"—"; position:absolute; left:0; color:var(--clay-lt); }
+.hero-cta{ margin-top:30px; display:flex; flex-wrap:wrap; gap:12px; }
+.hero-cta .btn-primary{ font-size:16px; padding:19px 34px; }
+.scroll-cue{
+  position:absolute; right:26px; bottom:26px; z-index:2;
+  writing-mode:vertical-rl; font-size:11px; letter-spacing:.2em; color:#C9BEAF;
+  display:flex; align-items:center; gap:10px;
+}
+.scroll-cue::after{ content:""; width:1px; height:34px; background:var(--clay-lt); }
+@media (max-width:640px){ .scroll-cue{ display:none; } }
+
+/* =========================================================
+   3. 悩みセクション（SECTION 02）
+   ========================================================= */
+.worries-grid{
+  margin-top:46px;
+  display:grid; grid-template-columns:repeat(2,1fr); gap:1px;
+  background:var(--line);
+  border:1px solid var(--line);
+}
+@media (min-width:760px){ .worries-grid{ grid-template-columns:repeat(3,1fr); } }
+.worry{
+  background:var(--paper);
+  padding:30px 22px;
+  min-height:150px;
+  display:flex; flex-direction:column; justify-content:space-between;
+}
+.worry-no{ font-family:var(--serif); font-size:13px; color:var(--clay); }
+.worry p{ font-size:15px; line-height:1.75; margin-top:16px; }
+
+/* =========================================================
+   4. 選ばれる理由（SECTION 03）
+   ========================================================= */
+.reasons{
+  margin-top:50px;
+  display:grid; gap:0;
+}
+.reason{
+  display:grid; grid-template-columns:1fr;
+  gap:18px;
+  padding:34px 0;
+  border-top:1px solid var(--line-dk);
+}
+.section-dark .reason:first-child{ border-top:1px solid var(--line-dk); }
+@media (min-width:760px){
+  .reason{ grid-template-columns:280px 1fr; align-items:baseline; gap:40px; }
+}
+.reason h3{ font-size:21px; color:var(--paper); line-height:1.6; }
+.reason p{ font-size:14.5px; color:#C9BEAF; line-height:1.95; max-width:36em; }
+
+/* =========================================================
+   5. Before/After（SECTION 04）
+   ========================================================= */
+.ba-scroller{
+  margin-top:44px;
+  display:flex; gap:16px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  padding-bottom:8px;
+  -webkit-overflow-scrolling:touch;
+}
+.ba-scroller::-webkit-scrollbar{ height:5px; }
+.ba-scroller::-webkit-scrollbar-thumb{ background:var(--line); }
+.ba-card{
+  flex:0 0 82%;
+  scroll-snap-align:start;
+}
+@media (min-width:640px){ .ba-card{ flex-basis:44%; } }
+@media (min-width:980px){ .ba-card{ flex-basis:31.5%; } }
+.ba-compare{
+  position:relative;
+  aspect-ratio:4/5;
+  overflow:hidden;
+  background:var(--ink);
+}
+.ba-compare img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.ba-before{ clip-path:inset(0 50% 0 0); }
+.ba-handle{
+  position:absolute; top:0; bottom:0; left:50%;
+  width:2px; background:var(--paper);
+  transform:translateX(-1px);
+  pointer-events:none;
+}
+.ba-handle::after{
+  content:"⇔"; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  width:34px; height:34px; border-radius:50%; background:var(--paper);
+  display:flex; align-items:center; justify-content:center; font-size:14px; color:var(--ink);
+}
+.ba-tag{
+  position:absolute; top:10px; font-size:11px; letter-spacing:.06em;
+  background:rgba(28,21,18,.75); color:var(--paper); padding:5px 10px;
+}
+.ba-tag.before{ left:10px; }
+.ba-tag.after{ right:10px; }
+.ba-cap{
+  margin-top:14px; font-size:14px; color:var(--stone);
+}
+.ba-hint{ margin-top:26px; font-size:12.5px; color:var(--stone); }
+
+/* =========================================================
+   6. 曲がる縮毛矯正（SECTION 05）
+   ========================================================= */
+.straight{
+  display:grid; gap:40px;
+}
+@media (min-width:900px){
+  .straight{ grid-template-columns:1fr 1fr; align-items:center; gap:64px; }
+  .straight.rev .straight-text{ order:2; }
+}
+.straight-photo{
+  aspect-ratio:4/5;
+  background:linear-gradient(160deg,var(--bark),var(--ink));
+}
+.straight-photo img{ width:100%; height:100%; object-fit:cover; }
+.straight-text .h2{ margin-bottom:20px; }
+.quote-box{
+  margin-top:26px; padding:22px 24px;
+  background:var(--paper-2);
+  border-left:2px solid var(--clay);
+  font-size:14.5px; color:var(--ink); line-height:1.9;
+}
+.section-dark .quote-box{ background:rgba(244,239,231,.06); border-left-color:var(--clay-lt); }
+
+/* =========================================================
+   7. パーマ（SECTION 06）
+   ========================================================= */
+.perm-list{
+  margin-top:40px;
+  display:grid; gap:1px; background:var(--line); border:1px solid var(--line);
+}
+@media (min-width:700px){ .perm-list{ grid-template-columns:1fr 1fr; } }
+.perm-item{ background:var(--paper); padding:28px 24px; }
+.perm-item h4{ font-size:18px; margin-bottom:10px; }
+.perm-item p{ font-size:14px; color:var(--stone); line-height:1.85; }
+
+/* =========================================================
+   8. メニュー（SECTION 07）
+   ========================================================= */
+.menu-group{ margin-top:8px; }
+.menu-group + .menu-group{ margin-top:46px; }
+.menu-group-title{
+  font-size:13px; color:var(--clay); letter-spacing:.06em; margin-bottom:4px;
+}
+.menu-row{
+  display:flex; align-items:baseline; gap:14px;
+  padding:20px 0;
+  border-bottom:1px solid var(--line);
+}
+.menu-row .name{ font-size:16.5px; }
+.menu-row .name small{ display:block; font-size:12.5px; color:var(--stone); margin-top:5px; font-weight:400; }
+.menu-row .fill{ flex:1; border-bottom:1px dotted var(--line); transform:translateY(-4px); }
+.menu-row .price{ font-family:var(--serif); font-size:18px; white-space:nowrap; }
+.menu-note{ margin-top:20px; font-size:12.5px; color:var(--stone); }
+
+/* =========================================================
+   9. 口コミ（SECTION 08）
+   ========================================================= */
+.voice-grid{
+  margin-top:44px; display:grid; gap:1px; background:var(--line-dk);
+}
+@media (min-width:760px){ .voice-grid{ grid-template-columns:repeat(3,1fr); } }
+.voice-card{
+  background:var(--bark); padding:28px 24px;
+  border-top:2px solid var(--clay);
+}
+.stars{ color:var(--clay-lt); font-size:14px; letter-spacing:2px; }
+.voice-card p{ margin-top:16px; font-size:14.5px; color:#D8CDBE; line-height:1.9; }
+.voice-name{ margin-top:18px; font-size:12.5px; color:#9C9086; }
+
+/* =========================================================
+   10. スタイリスト（SECTION 09）
+   ========================================================= */
+.stylist{
+  display:grid; gap:24px; margin-top:44px;
+}
+@media (min-width:760px){ .stylist{ grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:1px; background:var(--line); border:1px solid var(--line);} }
+.stylist-card{
+  display:grid; grid-template-columns:118px 1fr; gap:18px;
+  padding:26px; background:var(--paper);
+}
+.stylist-photo{
+  width:118px; height:118px; border-radius:50%; overflow:hidden; background:var(--bark);
+}
+.stylist-photo img{ width:100%; height:100%; object-fit:cover; }
+.stylist-card h4{ font-size:17px; }
+.stylist-role{ font-size:12.5px; color:var(--clay); margin-top:4px; }
+.stylist-card p{ font-size:13.5px; color:var(--stone); margin-top:12px; line-height:1.85; }
+
+/* =========================================================
+   11. アクセス（SECTION 10）
+   ========================================================= */
+.access{ display:grid; gap:36px; margin-top:44px; }
+@media (min-width:900px){ .access{ grid-template-columns:1fr 1fr; gap:48px; align-items:start; } }
+.access-map{
+  aspect-ratio:4/3; background:var(--paper-2); border:1px solid var(--line);
+}
+.access-map iframe{ width:100%; height:100%; border:0; filter:grayscale(35%) contrast(1.05); }
+.access-list{ margin-top:22px; }
+.access-list li{
+  display:flex; gap:16px; padding:16px 0; border-top:1px solid var(--line); font-size:14.5px;
+}
+.access-list li:last-child{ border-bottom:1px solid var(--line); }
+.access-list b{ flex:0 0 88px; color:var(--clay); font-weight:700; font-size:13px; }
+.access-steps{ margin-top:26px; }
+.access-steps li{ font-size:14px; color:var(--stone); padding:8px 0 8px 22px; position:relative; }
+.access-steps li::before{ content:counter(step); counter-increment:step; position:absolute; left:0; color:var(--clay); font-family:var(--serif); font-size:13px; }
+.access-steps{ counter-reset:step; }
+
+/* =========================================================
+   12. 最終CTA（SECTION 11）
+   ========================================================= */
+.final-cta{
+  text-align:center;
+  padding:110px 0 120px;
+  background:
+    linear-gradient(180deg, rgba(20,14,11,.55), rgba(20,14,11,.86)),
+    url("img/cta-salon.jpg") center/cover no-repeat;
+}
+.final-cta h2{
+  font-size:clamp(28px,5.6vw,44px); color:var(--paper); line-height:1.6; max-width:14em; margin:0 auto;
+}
+.final-cta .body-text{ color:#D8CDBE; margin:22px auto 0; text-align:center; }
+.final-cta-btns{ margin-top:38px; display:flex; flex-wrap:wrap; justify-content:center; gap:14px; }
+
+/* =========================================================
+   13. フッター
+   ========================================================= */
+footer{ background:var(--ink); color:#9C9086; padding:56px 0 110px; font-size:13px; }
+@media (min-width:900px){ footer{ padding-bottom:56px; } }
+.footer-top{
+  display:flex; flex-wrap:wrap; justify-content:space-between; gap:28px;
+  padding-bottom:28px; border-bottom:1px solid var(--line-dk);
+}
+.footer-logo{ font-family:var(--serif); color:var(--paper); font-size:19px; letter-spacing:.1em; }
+.footer-sns{ display:flex; gap:16px; }
+.footer-bottom{ margin-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+
+/* =========================================================
+   14. 固定CTA（モバイル）
+   ========================================================= */
+.sticky-cta{
+  position:fixed; left:0; right:0; bottom:0; z-index:50;
+  padding:10px var(--pad);
+  background:rgba(28,21,18,.96);
+  backdrop-filter:blur(6px);
+  border-top:1px solid var(--line-dk);
+}
+.sticky-cta .btn{ padding:14px; font-size:14.5px; }
+@media (min-width:900px){ .sticky-cta{ display:none; } }
+
+.section-title-block{ max-width:44em; }
+</style>
+
+<!-- =========================================================
+     Google Analytics 4（GA4）
+     測定ID：G-3KWZRKM3YQ（good! LP 専用のGA4プロパティ／データストリーム: good-lp.vercel.app）
+     ※本番ドメインが確定したら、GA4管理画面 > データストリーム のURLも更新してください
+     ========================================================= -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3KWZRKM3YQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-3KWZRKM3YQ');
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#hero" class="logo">good<span>!</span></a>
+  <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="header-cta">Hot Pepperで予約</a>
+</header>
+
+<!-- =========================================================
+     SECTION 01 — ファーストビュー
+     ★写真差し替え：.hero-photo の background の url() を変更
+     ========================================================= -->
+<section class="hero" id="hero">
+  <div class="hero-photo"></div>
+  <p class="scroll-cue">SCROLL</p>
+  <div class="hero-inner">
+    <p class="hero-eyebrow"><b>中野駅 徒歩2分</b>／メンズ特化ヘアサロン</p>
+    <h1>乾かすだけで、<br>輪郭が整う髪へ。</h1>
+    <p class="hero-sub">
+      スタイリングが苦手な男性へ。good!は、切って終わりではなく
+      「毎朝どう乾かすか」まで設計するメンズ特化サロンです。
+      自然な丸みを残す曲がる縮毛矯正と、再現しやすいカットで、
+      鏡の前で悩む時間をなくします。
+    </p>
+    <ul class="hero-facts">
+      <li>メンズカット</li>
+      <li>曲がる縮毛矯正</li>
+      <li>ニュアンスパーマ</li>
+      <li>マンツーマン施術</li>
+    </ul>
+    <div class="hero-cta">
+      <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="btn btn-primary">Hot Pepperで予約する</a>
+      <a href="#straight" class="btn btn-outline">曲がる縮毛矯正を見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 02 — こんなお悩みありませんか？
+     ========================================================= -->
+<section class="section" id="worries">
+  <div class="wrap section-title-block">
+    <span class="lead">ABOUT YOUR HAIR</span>
+    <h2 class="h2">その髪の悩み、伸ばした毛先や乾かし方が原因かもしれません。</h2>
+  </div>
+  <div class="wrap">
+    <div class="worries-grid">
+      <div class="worry"><span class="worry-no">01</span><p>朝のセットが苦手で、いつも同じ形にしかならない</p></div>
+      <div class="worry"><span class="worry-no">02</span><p>ワックスをつけても、髪型がなんとなく決まらない</p></div>
+      <div class="worry"><span class="worry-no">03</span><p>クセ毛がまとまらず、湿気で髪が膨らんでしまう</p></div>
+      <div class="worry"><span class="worry-no">04</span><p>縮毛矯正をすると、真っ直ぐすぎて不自然になる</p></div>
+      <div class="worry"><span class="worry-no">05</span><p>自分に似合う髪型が、正直よくわかっていない</p></div>
+      <div class="worry"><span class="worry-no">06</span><p>美容室帰りの髪型を、自宅で再現できたことがない</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 03 — good!が選ばれる理由
+     ========================================================= -->
+<section class="section section-dark" id="reasons">
+  <div class="wrap section-title-block">
+    <span class="lead">WHY GOOD</span>
+    <h2 class="h2">「切ってもらう」ではなく、「毎朝を作ってもらう」美容室。</h2>
+  </div>
+  <div class="wrap">
+    <div class="reasons">
+      <div class="reason">
+        <h3>ドライヤーだけで<br>形になるカット</h3>
+        <p>頭の形・髪質・クセ・毛の流れる方向を読んだうえで、乾かすだけでシルエットが決まるようにカットします。ワックスに頼らない再現性を、切る段階から作ります。</p>
+      </div>
+      <div class="reason">
+        <h3>男性の髪質・骨格を<br>理解したメンズ特化</h3>
+        <p>メンズ特化サロンとして、男性特有の髪の太さ・生えグセ・骨格の丸み方を日々見てきた知見があります。中野でメンズカットを探す方に、迷いのない提案をします。</p>
+      </div>
+      <div class="reason">
+        <h3>不自然にならない<br>「曲がる縮毛矯正」</h3>
+        <p>クセは伸ばしたいけれど、ピンとした不自然な直毛にはしたくない。そんな要望に応える、自然な丸みと毛流れを残すメンズ縮毛矯正・メンズストレートです。</p>
+      </div>
+      <div class="reason">
+        <h3>マンツーマンの<br>丁寧な施術</h3>
+        <p>掛け持ちをしない、1対1の施術。会話のペースも、仕上がりの相談も、自分だけの時間の中でゆっくり決められます。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 04 — Before / After
+     ★写真差し替え：.ba-before / .ba-after 各 img の src
+     ========================================================= -->
+<section class="section" id="before-after">
+  <div class="wrap section-title-block">
+    <span class="lead">BEFORE / AFTER</span>
+    <h2 class="h2">境界線をドラッグして、変化を見てみてください。</h2>
+  </div>
+  <div class="wrap">
+    <div class="ba-scroller">
+      <div class="ba-card">
+        <div class="ba-compare" data-ba>
+          <img class="ba-after" src="img/straight-after.jpg" alt="曲がる縮毛矯正で自然なストレートになった仕上がり">
+          <img class="ba-before" src="img/straight-before.jpg" alt="施術前のクセ毛の状態">
+          <div class="ba-handle"></div>
+          <span class="ba-tag before">Before</span>
+          <span class="ba-tag after">After</span>
+        </div>
+        <p class="ba-cap">クセ毛 → 曲がる縮毛矯正で、自然なストレートに</p>
+      </div>
+      <div class="ba-card">
+        <div class="ba-compare" data-ba>
+          <img class="ba-after" src="img/spread-after.jpg" alt="広がりが収まり美シルエットになった仕上がり">
+          <img class="ba-before" src="img/spread-before.jpg" alt="施術前の広がりやすい髪の状態">
+          <div class="ba-handle"></div>
+          <span class="ba-tag before">Before</span>
+          <span class="ba-tag after">After</span>
+        </div>
+        <p class="ba-cap">広がる髪 → 乾かすだけで収まる美シルエットに</p>
+      </div>
+      <div class="ba-card">
+        <div class="ba-compare" data-ba>
+          <img class="ba-after" src="img/nuance-after.jpg" alt="ニュアンスパーマで動きが出た仕上がり">
+          <img class="ba-before" src="img/nuance-before.jpg" alt="施術前の直毛で動きが出にくい状態">
+          <div class="ba-handle"></div>
+          <span class="ba-tag before">Before</span>
+          <span class="ba-tag after">After</span>
+        </div>
+        <p class="ba-cap">直毛で動きが出ない → ニュアンスパーマで柔らかく</p>
+      </div>
+    </div>
+    <p class="ba-hint">← スワイプで他の事例も見られます</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 05 — 曲がる縮毛矯正
+     ★写真差し替え：.straight-photo 内 img の src
+     ========================================================= -->
+<section class="section section-dark" id="straight">
+  <div class="wrap">
+    <div class="straight">
+      <div class="straight-photo">
+        <img src="img/straight-after.jpg" alt="曲がる縮毛矯正の仕上がり写真">
+      </div>
+      <div class="straight-text">
+        <span class="lead">CURVED STRAIGHT PERM</span>
+        <h2 class="h2">縮毛矯正＝真っ直ぐすぎる。<br>そのイメージを、変える。</h2>
+        <p class="body-text">
+          縮毛矯正をかけたことが分かるほど、ピンと真っ直ぐになった髪。
+          good!の「曲がる縮毛矯正」は、クセだけを落ち着かせて、
+          髪本来の丸みと毛流れをあえて残します。
+        </p>
+        <div class="quote-box">
+          「クセは伸ばしたい。でも、縮毛矯正をかけたとバレるような髪型にはしたくない。」<br>
+          — その感覚に、正面から応える技術です。
+        </div>
+        <p class="body-text" style="margin-top:22px;">
+          中野でメンズ縮毛矯正・メンズストレートをお探しの方は、
+          一般的な縮毛矯正と比較しながらご相談ください。
+        </p>
+        <div class="hero-cta" style="margin-top:30px;">
+          <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="btn btn-primary">曲がる縮毛矯正を予約する</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 06 — メンズパーマ
+     ========================================================= -->
+<section class="section" id="perm">
+  <div class="wrap section-title-block">
+    <span class="lead">MEN'S PERM</span>
+    <h2 class="h2">スタイリングが苦手な人ほど、パーマがおすすめです。</h2>
+    <p class="body-text" style="margin-top:18px;">
+      パーマは「動きを作る」のではなく「動きを固定する」技術。
+      ワックスの技術に頼らなくても、寝ぐせのようなラフさを毎朝再現できます。
+    </p>
+  </div>
+  <div class="wrap">
+    <div class="perm-list">
+      <div class="perm-item">
+        <h4>ニュアンスパーマ</h4>
+        <p>強くかけすぎず、毛先にわずかな動きを加える定番のメンズパーマ。初めてパーマに挑戦する方にも扱いやすい仕上がりです。</p>
+      </div>
+      <div class="perm-item">
+        <h4>ツイストパーマ</h4>
+        <p>毛束を捻るようにかけ、束感のある動きを演出。乾かすだけでラフな質感が出やすくなります。</p>
+      </div>
+      <div class="perm-item">
+        <h4>ツイストスパイラル</h4>
+        <p>強めのカールでしっかり動きを出したい方向け。強いパーマに抵抗がある方には、かかり具合を調整してご提案します。</p>
+      </div>
+      <div class="perm-item">
+        <h4>波巻き系パーマ</h4>
+        <p>緩やかな波状のカールで、自然な柔らかさを演出。ビジネスシーンでも浮きにくい、控えめな動きが特徴です。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 07 — メニュー・料金
+     Hot Pepper Beauty「メニュー」タブの価格と統一しています（税込）
+     ========================================================= -->
+<section class="section section-dark" id="menu">
+  <div class="wrap section-title-block">
+    <span class="lead">MENU</span>
+    <h2 class="h2">メニュー・料金</h2>
+  </div>
+  <div class="wrap">
+    <div class="menu-group">
+      <p class="menu-group-title">CUT</p>
+      <div class="menu-row">
+        <span class="name">メンズカット<small>シャンプー込み</small></span>
+        <span class="fill"></span>
+        <span class="price">¥7,500</span>
+      </div>
+    </div>
+    <div class="menu-group">
+      <p class="menu-group-title">COLOR</p>
+      <div class="menu-row">
+        <span class="name">メンズカラー<small>白髪染めも対応可</small></span>
+        <span class="fill"></span>
+        <span class="price">¥15,000〜</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">メンズブリーチ</span>
+        <span class="fill"></span>
+        <span class="price">¥22,500〜</span>
+      </div>
+    </div>
+    <div class="menu-group">
+      <p class="menu-group-title">PERM</p>
+      <div class="menu-row">
+        <span class="name">メンズパーマ<small>ニュアンス／ラルフ／ダウン／ツイストスパイラル／波巻き 等</small></span>
+        <span class="fill"></span>
+        <span class="price">¥15,000〜</span>
+      </div>
+    </div>
+    <div class="menu-group">
+      <p class="menu-group-title">STRAIGHT PERM</p>
+      <div class="menu-row">
+        <span class="name">メンズ縮毛矯正<small>曲がる縮毛矯正を含む</small></span>
+        <span class="fill"></span>
+        <span class="price">¥22,500</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">メンズ酸性ストレート<small>ブリーチ毛の方向け</small></span>
+        <span class="fill"></span>
+        <span class="price">¥30,000</span>
+      </div>
+    </div>
+    <div class="menu-group">
+      <p class="menu-group-title">TREATMENT / SPA</p>
+      <div class="menu-row">
+        <span class="name">メンズトリートメント</span>
+        <span class="fill"></span>
+        <span class="price">¥7,500</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">メンズ髪質改善トリートメント</span>
+        <span class="fill"></span>
+        <span class="price">¥15,000</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">ヘッドスパ</span>
+        <span class="fill"></span>
+        <span class="price">¥7,500</span>
+      </div>
+    </div>
+    <div class="menu-group">
+      <p class="menu-group-title">OTHER</p>
+      <div class="menu-row">
+        <span class="name">シャンプー＋スタイリング</span>
+        <span class="fill"></span>
+        <span class="price">¥7,500</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">アイブロウリフト</span>
+        <span class="fill"></span>
+        <span class="price">¥7,500</span>
+      </div>
+      <div class="menu-row">
+        <span class="name">眉毛カット</span>
+        <span class="fill"></span>
+        <span class="price">要問い合わせ</span>
+      </div>
+    </div>
+    <p class="menu-note">※価格はすべて税込です。カットを伴わない施術はシャンプーブロー代（+¥1,100）が別途かかります。カラー／ブリーチ／縮毛矯正／酸性ストレートは、髪の長さにより追加料金（肩〜鎖骨 +¥2,200、鎖骨から下 +¥3,300）が発生する場合があります。最新の価格・クーポンはHot Pepper Beautyのページをご確認ください。</p>
+    <div class="hero-cta" style="margin-top:26px;">
+      <a href="https://beauty.hotpepper.jp/slnH000786406/coupon/" target="_blank" rel="noopener" class="btn btn-outline">Hot Pepperでクーポン・全メニューを見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 08 — お客様の口コミ
+     Hot Pepper Beauty掲載の口コミより、要点をご紹介しています（要約・言い換え）
+     全文は下記リンクからHot Pepper Beautyでご確認いただけます
+     ========================================================= -->
+<section class="section" id="voice">
+  <div class="wrap section-title-block">
+    <span class="lead">VOICE</span>
+    <h2 class="h2">お客様の声</h2>
+    <p class="body-text" style="margin-top:14px;">Hot Pepper Beauty 口コミ平均 4.83（36件）より</p>
+  </div>
+  <div class="wrap">
+    <div class="voice-grid">
+      <div class="voice-card">
+        <p class="stars">★★★★★</p>
+        <p>「ドライヤーだけで美シルエット」に惹かれて来店。くせが強くお手入れを楽にしたいという難しい希望にも応えてもらい、仕上がりに周囲が気づくほどの変化がありました。マンツーマンなので周りを気にせず相談できたのも良かったです。</p>
+        <p class="voice-name">20代後半・男性・会社員</p>
+      </div>
+      <div class="voice-card">
+        <p class="stars">★★★★★</p>
+        <p>細くてまとまりにくい髪が、ふんわりとした自然な毛流れに。丁寧で安心できる時間で、普段のスタイリングがぐっと楽になりました。</p>
+        <p class="voice-name">30代前半・男性・自営業（曲がる縮毛矯正＋カット）</p>
+      </div>
+      <div class="voice-card">
+        <p class="stars">★★★★☆</p>
+        <p>前髪や輪郭など、細かい要望までしっかり汲み取ってもらえました。仕上がりは清潔感が出て、日々のセットがしやすくなりました。</p>
+        <p class="voice-name">30代後半・男性・会社員</p>
+      </div>
+    </div>
+    <div class="hero-cta" style="margin-top:30px;">
+      <a href="https://beauty.hotpepper.jp/slnH000786406/review/" target="_blank" rel="noopener" class="btn btn-outline">Hot Pepperですべての口コミを見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 09 — スタイリスト紹介
+     ★写真・名前・メッセージを差し替えてください
+     ========================================================= -->
+<section class="section section-dark" id="stylist">
+  <div class="wrap section-title-block">
+    <span class="lead">STYLIST</span>
+    <h2 class="h2">担当するのは、この人です。</h2>
+  </div>
+  <div class="wrap">
+    <div class="stylist">
+      <div class="stylist-card">
+        <div class="stylist-photo"><img src="img/stylist-akutsu.jpg" alt="スタイリスト阿久津勉の顔写真"></div>
+        <div>
+          <h4>阿久津 勉（あくつ）</h4>
+          <p class="stylist-role">メンズパーマ・メンズ縮毛矯正特化スタイリスト／歴12年</p>
+          <p>直毛・クセ毛・前髪の割れ・サイドの膨らみなど、男性特有の髪の悩みに合わせて、乾かすだけでも形になりやすいヘアをご提案します。完全マンツーマンで、最初から最後まですべて自分の手で仕上げます。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 10 — アクセス
+     ★地図：iframe src を実店舗の住所埋め込みコードに差し替え
+     ========================================================= -->
+<section class="section" id="access">
+  <div class="wrap section-title-block">
+    <span class="lead">ACCESS</span>
+    <h2 class="h2">中野駅から徒歩2分。</h2>
+  </div>
+  <div class="wrap">
+    <div class="access">
+      <div>
+        <div class="access-map">
+          <iframe src="https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%AD%E9%87%8E%E5%8C%BA%E4%B8%AD%E9%87%8E2-11-7%20%E6%B4%A5%E7%94%B0%E3%83%93%E3%83%AB&output=embed" loading="lazy" title="good!へのアクセスマップ（中野駅周辺）" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <ul class="access-steps">
+          <li>JR中野駅 南口改札を出て左へ</li>
+          <li>線路沿いに進み、最初の建物（ファミリーマートの向かい）</li>
+          <li>徒歩約2分、津田ビル4階が「good!」です</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="access-list">
+          <li><b>住所</b><span>東京都中野区中野2-11-7 津田ビル4階</span></li>
+          <li><b>最寄駅</b><span>JR中央・総武線／東京メトロ東西線 中野駅 徒歩2分</span></li>
+          <li><b>営業時間</b><span>平日 11:00〜23:00／土日祝 10:00〜23:00</span></li>
+          <li><b>定休日</b><span>不定休</span></li>
+          <li><b>電話</b><span><a href="tel:0363825421">03-6382-5421</a></span></li>
+        </ul>
+        <div class="hero-cta" style="margin-top:26px;">
+          <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="btn btn-outline">Hot Pepperで予約する</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SECTION 11 — 最終CTA
+     ========================================================= -->
+<section class="final-cta" id="final-cta">
+  <div class="wrap">
+    <h2>あなたの髪は、<br>もっと簡単にカッコよくできる。</h2>
+    <p class="body-text">まずは一度、good!へ。乾かすだけで整う髪を、一緒に作りましょう。</p>
+    <div class="final-cta-btns">
+      <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="btn btn-primary">Hot Pepperから予約する</a>
+      <a href="https://www.instagram.com/good_akutsuben" target="_blank" rel="noopener" class="btn btn-outline">Instagramを見る</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <span class="footer-logo">good!</span>
+      <div class="footer-sns">
+        <a href="https://www.instagram.com/good_akutsuben" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener">Hot Pepper Beauty</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>東京都中野区中野2-11-7 津田ビル4階／中野駅 徒歩2分</span>
+      <span>© good!</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 固定CTA（モバイルのみ表示） -->
+<div class="sticky-cta">
+  <a href="https://beauty.hotpepper.jp/slnH000786406/" target="_blank" rel="noopener" class="btn btn-primary btn-block">Hot Pepperで予約する</a>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Before/After スライダー：中央の境界線をドラッグ／タップで動かす */
+  document.querySelectorAll('[data-ba]').forEach(function(el){
+    var before = el.querySelector('.ba-before');
+    var handle = el.querySelector('.ba-handle');
+    var dragging = false;
+
+    function setPos(clientX){
+      var rect = el.getBoundingClientRect();
+      var pct = Math.min(100, Math.max(0, ((clientX - rect.left) / rect.width) * 100));
+      before.style.clipPath = 'inset(0 ' + (100 - pct) + '% 0 0)';
+      handle.style.left = pct + '%';
+    }
+
+    el.addEventListener('pointerdown', function(e){ dragging = true; setPos(e.clientX); });
+    window.addEventListener('pointermove', function(e){ if(dragging) setPos(e.clientX); });
+    window.addEventListener('pointerup', function(){ dragging = false; });
+    el.addEventListener('pointerleave', function(){ dragging = false; });
+  });
+
+  /* 固定CTA：フッター/最終CTAに入ったら隠す（重複を避けるため） */
+  var stickyCta = document.querySelector('.sticky-cta');
+  var finalCta = document.getElementById('final-cta');
+  if('IntersectionObserver' in window && stickyCta && finalCta){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        stickyCta.style.transform = entry.isIntersecting ? 'translateY(120%)' : 'translateY(0)';
+        stickyCta.style.transition = 'transform .3s ease';
+      });
+    }, { threshold: 0.15 });
+    io.observe(finalCta);
+  }
+
+  /* GA4：予約ボタン・Instagramボタンのクリックをイベントとして計測
+     どのセクションのボタンが押されたかを label で判別できるようにしています */
+  function trackClick(el, eventName, label){
+    el.addEventListener('click', function(){
+      if (typeof gtag === 'function') {
+        gtag('event', eventName, { link_label: label });
+      }
+    });
+  }
+  document.querySelectorAll('a[href*="hotpepper.jp"]').forEach(function(el, i){
+    trackClick(el, 'click_reserve', el.textContent.trim() || ('reserve_'+i));
+  });
+  document.querySelectorAll('a[href*="instagram.com"]').forEach(function(el, i){
+    trackClick(el, 'click_instagram', el.textContent.trim() || ('instagram_'+i));
+  });
+})();
+</script>
+</body>
+</html>
